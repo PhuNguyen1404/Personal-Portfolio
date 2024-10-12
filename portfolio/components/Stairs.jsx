@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 
 //vatiants
 const starAnimation = {
@@ -14,8 +14,8 @@ const starAnimation = {
 };
 
 const reverseIndex = (index) => {
-  const totalStep = 6;
-  return totalStep - index - 1;
+  const totalSteps = 6;
+  return totalSteps - index - 1;
 };
 
 const Stairs = () => {
@@ -33,7 +33,7 @@ const Stairs = () => {
               transition={{
                 duration: 0.4,
                 ease: "easeInOut",
-                delay: reverseIndex(index) * 1,
+                delay: reverseIndex(index) * 0.1,
               }}
               className="h-full w-full bg-white relative"
             />
