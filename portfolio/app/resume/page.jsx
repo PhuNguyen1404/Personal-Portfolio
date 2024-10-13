@@ -78,7 +78,7 @@ const experiences = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My experience",
-  description: "lorem ips amet, consectetur adipiscing elit ",
+  description: "I am currently pursuing a bachelor degree in Information Technology major at Ho Chi Minh City University of Science",
   item: [
     {
       institution: "VNUHCM - University of Science",
