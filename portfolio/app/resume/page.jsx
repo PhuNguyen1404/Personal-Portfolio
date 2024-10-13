@@ -90,7 +90,8 @@ const education = {
 
 const skills = {
   title: "My skills",
-  description: "lorem ips amet, consect et sapiente elit ",
+  description:
+    "With expertise in HTML5 for structuring web pages, CSS3 and Tailwind CSS for creating responsive and modern designs, JavaScript for adding dynamic functionality, and backend skills in NodeJS, alongside frameworks like Next.js and React.js for building scalable, interactive applications, I can efficiently transform Figma designs into fully functional and visually appealing web applications.",
   skilllist: [
     {
       icon: <FaHtml5 />,
@@ -153,7 +154,7 @@ const Reusume = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-o">
+                  <p className="max-w-[800px] text-white/60 mx-auto xl:mx-o">
                     {skills.description}
                   </p>
                   <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
