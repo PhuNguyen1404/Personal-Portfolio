@@ -34,13 +34,13 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
-        <CiMenuFries className="text-[32px] text-accent" />
+        <CiMenuFries className="text-[32px] text-[#e76f51]" />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/">
             <h1 className="text-4xl font-semibold">
-              Phú <span className="text-accent">.</span>
+              Phú <span className="text-[#e76f51]">.</span>
             </h1>
           </Link>
         </div>
@@ -53,9 +53,9 @@ const MobileNav = () => {
                 key={index}
                 className={`${
                   link.path === pathname &&
-                  "text-accent border-b-2 border-accent"
+                  "text-[#e76f51] border-b-2 border-[#e76f51]"
                 } 
-                        capitalize hover:text-accent transition-all`}
+                        capitalize hover:text-[#e76f51] transition-all`}
               >
                 {link.name}
               </Link>

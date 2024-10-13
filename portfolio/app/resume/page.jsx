@@ -164,7 +164,7 @@ const Reusume = () => {
                           <TooltipProvider delayDuration={100}>
                             <Tooltip>
                               <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                                <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                                <div className="text-6xl group-hover:text-[#e76f51] transition-all duration-300">
                                   {skills.icon}
                                 </div>
                               </TooltipTrigger>
@@ -196,12 +196,12 @@ const Reusume = () => {
                         key={index}
                         className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                       >
-                        <span className="text-accent">{item.duration}</span>
+                        <span className="text-[#e76f51]">{item.duration}</span>
                         <h3 className="text-lg max-w-[260px] min-h-[60px] text-center lg:text-left">
                           {item.degree}
                         </h3>
                         <div className="flex items-center gap-3">
-                          <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                          <span className="w-[6px] h-[6px] rounded-full bg-[#e76f51]"></span>
                           <p className="text-white/60">{item.institution}</p>
                         </div>
                       </li>
@@ -243,10 +243,10 @@ const Reusume = () => {
                 <ul className="grid gird-cols-1 lg:grid-cols-2 gap-[30px]">
                   {experience.item.map((item, index) => {
                     return <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
-                      <span className="text-accent">{item.duration}</span>
+                      <span className="text-[#e76f51]">{item.duration}</span>
                       <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
                       <div className="flex items-center gap-3">
-                        <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                        <span className="w-[6px] h-[6px] rounded-full bg-[#e76f51]"></span>
                         <p className="text-white/60">{item.company}</p>
                       </div>
                     </li>

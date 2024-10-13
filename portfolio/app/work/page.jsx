@@ -78,14 +78,14 @@ const Work = () => {
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project?.num}
               </div>
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-[#e76f51] transition-all duration-500 capitalize">
                 {project?.catergory} project
               </h2>
               <p className="text-white/60">{project?.description}</p>
               <ul className="flex gap-4">
                 {project?.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-xl text-accent ">
+                    <li key={index} className="text-xl text-[#e76f51] ">
                       {item.name}
                       {index !== project?.stack.length - 1 && ","}
                     </li>
@@ -150,7 +150,7 @@ const Work = () => {
               })}
               <WorkSliderBtns
                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
-                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+                btnStyles="bg-[#e76f51] hover:bg-[#e76f51]-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
               />
             </Swiper>
           </div>

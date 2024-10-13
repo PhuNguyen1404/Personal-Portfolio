@@ -45,12 +45,12 @@ const Services = () => {
                   </div>
                   <Link
                     href={services.href}
-                    className="w-[50px] h-[50px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                    className="w-[50px] h-[50px] rounded-full bg-white group-hover:bg-[#e76f51] transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                   >
                     <BsArrowDownRight className="text-primary text-3xl" />
                   </Link>
                 </div>
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-[#e76f51] transition-all duration-500">
                   {services.title}
                 </h2>
 

@@ -14,7 +14,7 @@ const Home = () => {
             <span className="text-xl">Fullstack Developer</span>
             <h1 className="h1">
               Hello I'm <br />{" "}
-              <span className="text-accent">Nguyễn Ngọc Phú</span>
+              <span className="text-[#e76f51]">Nguyễn Ngọc Phú</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               As a Full Stack Developer, I build scalable, efficient web apps
@@ -27,7 +27,7 @@ const Home = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="uppercase flex items-center gap-2 v border border-accent"
+                className="uppercase flex items-center gap-2 v border border-[#e76f51]"
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
@@ -35,7 +35,7 @@ const Home = () => {
               <div className="mb-8 xl:mb-0 ">
                 <Socials
                   containerStyles="flex gap-6"
-                  iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover: transition-all duration-500"
+                  iconStyles="w-9 h-9 border border-[#e76f51] rounded-full flex justify-center items-center text-[#e76f51] text-base hover:bg-[#e76f51] hover:text-primary hover: transition-all duration-500"
                 />
               </div>
             </div>

@@ -11,7 +11,7 @@ const Header = () => {
         {/* logo */}
         <Link href=" ">
           <h1 className="text-4xl font-semibold">
-            Phú<span className="text-accent">.</span>
+            Phú<span className="text-[#e76f51]">.</span>
           </h1>
         </Link>
 
