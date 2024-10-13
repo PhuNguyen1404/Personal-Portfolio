@@ -1,7 +1,7 @@
 import { animate, motion } from "framer-motion";
 
 //vatiants
-const starAnimation = {
+const stairAnimation = {
   initial: {
     top: "0%",
   },
@@ -21,12 +21,11 @@ const reverseIndex = (index) => {
 const Stairs = () => {
   return (
     <>
-      {[
-        ...Array(6).map((_, index) => {
+      {[...Array(6).map((_, index) => {
           return (
             <motion.div
               key={index}
-              variants={starAnimation}
+              variants={stairAnimation}
               initial="initial"
               animate="animate"
               exit="exit"
