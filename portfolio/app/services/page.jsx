@@ -9,14 +9,14 @@ const services = [
     num: "01",
     title: "Web development",
     descripton:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum socis natoque penatibus et justo vit",
+      "Guarantee that sites meet user expectations by ensuring they look good, run smoothly and offer easy access points with no loading issues between pages or error messages.",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX Design",
     descripton:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum socis natoque penatibus et justo vit",
+      "Focusing on creating functional, visually appealing, and user-friendly interfaces by conducting usability testing, prototyping, and ensuring seamless interaction between users and digital tools",
     href: "",
   },
 ];

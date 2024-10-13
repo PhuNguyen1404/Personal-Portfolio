@@ -21,7 +21,8 @@ import { motion } from "framer-motion";
 
 const about = {
   title: "About me",
-  description: "lorem ips amet, consectetur adipiscing elit",
+  description:
+    "I am currently pursuing a bachelor degree in Information Technology major at Ho Chi Minh City University of Science and am eager to secure a Fullstack Developer Internship.",
   info: [
     {
       fieldName: "Name",
