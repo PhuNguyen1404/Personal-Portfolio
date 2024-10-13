@@ -141,9 +141,9 @@ const Reusume = () => {
       <div className="container mx-auto">
         <Tabs
           defaultValue="skills"
-          className="flex flex-col xl:flex-row gap-[60px] rounded"
+          className="flex flex-col xl:flex-row gap-[60px] rounded-xl"
         >
-          <TabsList className="rounded flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+          <TabsList className="rounded-xl flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="about">About me</TabsTrigger>
