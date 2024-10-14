@@ -78,7 +78,8 @@ const experiences = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My experience",
-  description: "I am currently pursuing a bachelor degree in Information Technology major at Ho Chi Minh City University of Science",
+  description:
+    "I am currently pursuing a bachelor degree in Information Technology major at Ho Chi Minh City University of Science",
   item: [
     {
       institution: "VNUHCM - University of Science",
@@ -134,16 +135,16 @@ const Reusume = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+        transition: { delay: 1, duration: 0.2, ease: "easeIn" },
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
       <div className="container mx-auto">
         <Tabs
           defaultValue="skills"
-          className="flex flex-col xl:flex-row gap-[60px] rounded-xl"
+          className="flex flex-col xl:flex-row gap-[60px]"
         >
-          <TabsList className="rounded-xl flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6 rounded-2xl">
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="about">About me</TabsTrigger>
