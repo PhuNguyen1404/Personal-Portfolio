@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import DownloadButton from "@/components/DownloadButton";
 
 const Home = () => {
   return (
@@ -24,14 +25,7 @@ const Home = () => {
               creative projects that solve real-world challenges.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2 v border border-[#e76f51]"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <DownloadButton />
               <div className="mb-8 xl:mb-0 ">
                 <Socials
                   containerStyles="flex gap-6"
