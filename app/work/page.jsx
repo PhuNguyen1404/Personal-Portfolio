@@ -21,36 +21,20 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    catergory: "frontend",
+    catergory: "PHP",
     title: "Project 01",
     description:
-      "lorem Ips but tristique senectum dolor sit amet, consectetur adipiscing el",
-    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "JaveScript" }],
-    image: "/assets/work/thumb1.png",
+      "This project focuses on handling database connections, dynamically generate content, and perform CRUD operations (Create, Read, Update, Delete). The tasks involve building pages that display university data from a MySQL database, processing user inputs, and enabling actions such as editing or deleting records. Additional functionality includes processing form submissions and handling image uploads.",
+    stack: [
+      { name: "Html 5" },
+      { name: "CSS " },
+      { name: "JaveScript" },
+      { name: "PHP" },
+    ],
+    image: "/assets/work/php.png",
     live: "",
-    github: "",
-  },
-  {
-    num: "02",
-    catergory: "fullstack",
-    title: "Project 02",
-    description:
-      "lorem Ips but tristique senectum dolor sit amet, consectetur adipiscing el",
-    stack: [{ name: "Next.Js" }, { name: "Tailwind" }, { name: "NodeJs" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    catergory: "frontend",
-    title: "Project 03",
-    description:
-      "lorem Ips but tristique senectum dolor sit amet, consectetur adipiscing el",
-    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "JaveScript" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    github:
+      "https://github.com/PhuNguyen1404/Personal-Project/tree/cb6e68d63b4303b02d1d1f1d1941e64252d0c589/Advanced%20PHP",
   },
 ];
 
@@ -140,7 +124,7 @@ const Work = () => {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-fill"
                           alt=""
                         ></Image>
                       </div>

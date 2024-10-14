@@ -22,7 +22,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "I am currently pursuing a bachelor degree in Information Technology major at Ho Chi Minh City University of Science and am eager to secure a Fullstack Developer Internship.",
+    "I am currently pursuing a bachelor degree in Information Technology major at Ho Chi Minh City University of Science and am eager to secure a Fullstack Developer position.",
   info: [
     {
       fieldName: "Name",
@@ -92,7 +92,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "With expertise in HTML5 for structuring web pages, CSS3 and Tailwind CSS for creating responsive and modern designs, JavaScript for adding dynamic functionality, and backend skills in NodeJS, alongside frameworks like Next.js and React.js for building scalable, interactive applications, I can efficiently transform Figma designs into fully functional and visually appealing web applications.",
+    "With expertise in HTML5, CSS3, Tailwind CSS, JavaScript, and backend skills in NodeJS, along with frameworks like Next.js and React.js, I can efficiently transform Figma designs into fully functional, visually appealing web applications.",
   skilllist: [
     {
       icon: <FaHtml5 />,
@@ -189,7 +189,7 @@ const Reusume = () => {
                   {education.description}
                 </p>
               </div>
-              <ScrollArea className="h-[400px]">
+              <ScrollArea className="h-[400px] pt-8">
                 <ul className="grid gird-cols-1 lg:grid-cols-2 gap-[30px]">
                   {education.item.map((item, index) => {
                     return (

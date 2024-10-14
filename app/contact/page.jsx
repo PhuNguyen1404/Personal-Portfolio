@@ -77,7 +77,7 @@ const Contact = () => {
                 className="h-[200px] "
                 placeholder="Type your message here"
               />
-              <Button size="md" className="max-w-40 max-h-10">
+              <Button size="sm" className="max-w-40 max-h-20">
                 Send message
               </Button>
             </form>
