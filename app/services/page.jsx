@@ -9,7 +9,7 @@ const services = [
     num: "01",
     title: "Web development",
     descripton:
-      "Guarantee that sites meet user expectations by ensuring they look good, run smoothly and offer easy access points with no loading issues between pages or error messages.",
+      "Guarantee that sites meet user expectations by ensuring they look aesthetic, run smoothly and offer easy access points with no loading issues between pages or error messages.",
     href: "",
   },
   {
