@@ -7,8 +7,8 @@ import { FiDownload } from "react-icons/fi";
 const DownloadButton = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/CV-1.pdf";
-    link.download = "CV-1.pdf";
+    link.href = "/assets/CV-en.pdf";
+    link.download = "CV-en.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
