@@ -27,7 +27,7 @@ const projects = [
       "This project focuses on handling database connections, dynamically generate content, and perform CRUD operations (Create, Read, Update, Delete). The tasks involve building pages that display university data from a MySQL database, processing user inputs, and enabling actions such as editing or deleting records. Additional functionality includes processing form submissions and handling image uploads.",
     stack: [
       { name: "Html 5" },
-      { name: "CSS " },
+      { name: "CSS" },
       { name: "JaveScript" },
       { name: "PHP" },
     ],
@@ -43,7 +43,6 @@ const projects = [
     description:
       "This project is a dynamic showcase of skills and projects in web development. Built using modern technologies such as Next JS, Tailwind CSS, Framer Motion, and React, the portfolio features a responsive design that enhances user experience across devices. It includes sections highlighting various projects, with detailed descriptions and links to live demos, making it an effective digital resume.",
     stack: [
-      { name: "Html 5" },
       { name: "Tailwind" },
       { name: "React.js" },
       { name: "Netx.js" },
