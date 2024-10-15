@@ -36,6 +36,22 @@ const projects = [
     github:
       "https://github.com/PhuNguyen1404/Personal-Project/tree/cb6e68d63b4303b02d1d1f1d1941e64252d0c589/Advanced%20PHP",
   },
+  {
+    num: "02",
+    catergory: "frontend",
+    title: "Project 02",
+    description:
+      "This project is a dynamic showcase of skills and projects in web development. Built using modern technologies such as Next JS, Tailwind CSS, Framer Motion, and React, the portfolio features a responsive design that enhances user experience across devices. It includes sections highlighting various projects, with detailed descriptions and links to live demos, making it an effective digital resume.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind" },
+      { name: "React.js" },
+      { name: "Netx.js" },
+    ],
+    image: "/assets/work/porfolio.png",
+    live: "https://nguyen-ngoc-phu-personal-portfolio.vercel.app",
+    github: "https://github.com/PhuNguyen1404/Personal-Portfolio.git",
+  },
 ];
 
 const Work = () => {
