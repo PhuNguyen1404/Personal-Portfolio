@@ -34,7 +34,7 @@ const about = {
     },
     {
       fieldName: "Experiences",
-      fieldValue: "1 years",
+      fieldValue: "1 year",
     },
     {
       fieldName: "Telegram",
