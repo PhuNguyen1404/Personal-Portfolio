@@ -42,14 +42,21 @@ const projects = [
     title: "Project 02",
     description:
       "This project is a dynamic showcase of skills and projects in web development. Built using modern technologies such as Next JS, Tailwind CSS, Framer Motion, and React, the portfolio features a responsive design that enhances user experience across devices. It includes sections highlighting various projects, with detailed descriptions and links to live demos, making it an effective digital resume.",
-    stack: [
-      { name: "Tailwind" },
-      { name: "React.js" },
-      { name: "Netx.js" },
-    ],
+    stack: [{ name: "Tailwind" }, { name: "React.js" }, { name: "Netx.js" }],
     image: "/assets/work/porfolio.png",
     live: "https://nguyen-ngoc-phu-personal-portfolio.vercel.app",
     github: "https://github.com/PhuNguyen1404/Personal-Portfolio.git",
+  },
+  {
+    num: "03",
+    catergory: "Fullstack",
+    title: "Project 03",
+    description:
+      "This cutting-edge E-Commerce platform seamlessly integrates a powerful admin dashboard with a sleek storefront, leveraging the latest in web technology. Built on Next.js, it features secure authentication via Kinde-Auth, dynamic data management with Neon and Prisma, seamless payments through Stripe, and a modern UI crafted with Tailwind CSS and Shadcn/UI. Hosted on Vercel and enhanced with real-time capabilities via Upstash, this project sets a new standard for online retail innovation.",
+    stack: [{ name: "Tailwind" }, { name: "React.js" }, { name: "Netx.js" }],
+    image: "/assets/work/E-commerces.png",
+    live: "",
+    github: "https://github.com/PhuNguyen1404/ElecDevices.E-commerce",
   },
 ];
 
