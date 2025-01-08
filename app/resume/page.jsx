@@ -232,7 +232,6 @@ const Reusume = () => {
               </div>
             </TabsContent>
 
-            {/*
              <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
@@ -253,7 +252,6 @@ const Reusume = () => {
                 </ul>
               </ScrollArea>
             </TabsContent>
-             */}
           </div>
         </Tabs>
       </div>
