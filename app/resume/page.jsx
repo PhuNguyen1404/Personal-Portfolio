@@ -59,21 +59,19 @@ const about = {
   ],
 };
 
-/*  
 const experiences = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description: "lorem ips amet, consectetur adipiscing elit ",
+  description: "Working experiences",
   item: [
     {
-      company: "",
-      position: "",
-      duration: "",
+      company: "FPT Telecom Joint Stock Company",
+      position: "Intern",
+      duration: "Jan 2025 - Present",
     },
   ],
 };
 
-*/
 
 const education = {
   icon: "/assets/resume/cap.svg",
