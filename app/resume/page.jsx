@@ -232,7 +232,7 @@ const Reusume = () => {
               </div>
             </TabsContent>
 
-            <TabsContent value="experience" className="w-full">
+            <TabsContent value="experiences" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experiences.title}</h3>
                 <p className="max-w-[600px] text-white/80 mx-auto xl:mx-0">
