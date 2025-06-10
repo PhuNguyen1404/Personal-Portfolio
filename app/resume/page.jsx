@@ -69,6 +69,11 @@ const experiences = {
       position: "Intern",
       duration: "Jan 2025 - Present",
     },
+    {
+      company: "ANV LLC (ANV 合同会社)",
+      position: "Intern",
+      duration: "Dec 2024 - May 2025",
+    },
   ],
 };
 
