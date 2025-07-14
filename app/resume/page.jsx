@@ -65,7 +65,7 @@ const experiences = {
   description: "My working experiences",
   item: [
     {
-      company: "FPT Telecom Joint Stock Company",
+      company: "FPT IS",
       position: "Intern",
       duration: "Jan 2025 - Present",
     },
