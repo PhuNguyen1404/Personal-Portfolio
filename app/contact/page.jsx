@@ -31,7 +31,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Ward 6, Binh Thanh District, Ho Chi Minh City",
+    description: "Binh Loi Trung Ward, Ho Chi Minh City",
   },
 ];
 
