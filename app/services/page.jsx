@@ -19,6 +19,13 @@ const services = [
       "Focusing on creating functional, visually appealing, and user-friendly interfaces by conducting usability testing, prototyping, and ensuring seamless interaction between users and digital tools",
     href: "",
   },
+  {
+    num: "03",
+    title: "SQL/Database Development",
+    descripton:
+      "Designing and implementing robust database solutions using SQL, MySQL, and other database technologies. Creating efficient data structures, optimizing queries, and ensuring data integrity for scalable applications.",
+    href: "",
+  },
 ];
 
 const Services = () => {
